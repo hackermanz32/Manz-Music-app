@@ -13,8 +13,8 @@ the first launch sets up its own private Python environment.
 The newest version of this app — interface (UI), fixes and new features — is always
 published on GitHub:
 
-> **https://github.com/YOUR-USERNAME/manz-music-player**
-> _(replace this line with your own repository link)_
+> https://github.com/hackermanz32/Manz-Music-app.git
+
 
 Whenever I change something on this PC, I test it here first and then push it, so the GitHub
 copy is always the latest version:
