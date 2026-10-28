@@ -1,0 +1,26 @@
+MANZ MUSIC PLAYER (Windows 11)
+==============================
+
+1. Double-click launch-windows.bat.
+2. Wait while it sets up (first run only) and opens your browser.
+3. In the app, click "+ Add music folder" and pick your music folder.
+
+Keep the black launcher window open while using the app.
+Closing that window stops the server.
+
+Phone or another PC on the same network:
+Run launch-windows-lan.bat, allow the Windows Firewall prompt, then open
+http://<this-PC-ip>:8642 on the other device. See README.md for details.
+
+Shortcut on the Desktop:
+Run create-desktop-shortcut.bat once. That shortcut starts LAN mode, so the
+same click works on this PC and on your phone (firewall prompt appears once).
+
+Your data (library index, settings, cover cache):
+%LOCALAPPDATA%\ManzMusicPlayer
+
+Troubleshooting and full instructions: README.md
+
+Updates:
+The newest version (UI, fixes, new features) is published on GitHub.
+See the "Project home and updates" section at the top of README.md.

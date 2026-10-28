@@ -1,0 +1,28 @@
+# Python / local environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local music folders (audio stays on this PC, never push it to GitHub)
+/Music/
+/90s/
+/Manz holly/
+/Manz Phonk/
+/prem bhushan/
+
+# Any audio files added to the app folder
+*.flac
+*.mp3
+*.m4a
+*.aac
+*.ogg
+*.opus
+*.wav
+*.aiff
+*.wv
+*.tta
+
+# Windows junk
+Thumbs.db
+desktop.ini
+*.log
