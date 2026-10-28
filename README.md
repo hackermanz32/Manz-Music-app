@@ -8,13 +8,39 @@ the first launch sets up its own private Python environment.
 
 ---
 
+## Key features
+
+- **Your own library, indexed locally** — point the app at one or more music folders and it
+  scans them, reading tags, duration and embedded cover art. Nothing leaves your PC.
+- **Download from Apple Music with a link** — paste a song, album or playlist link from
+  `music.apple.com` (there is a paste button for your clipboard) and the app reads that page,
+  finds the matching audio, downloads it, tags it and embeds the Apple cover art. Every job
+  appears in a download queue with live progress, and you can cancel or clear finished ones.
+- **Lossless badges with real numbers** — tracks get a Lossless or Hi-Res badge; click it to
+  see the honest specs: codec, bitrate, sample rate, bit depth and channels.
+- **Plays what you already own** — FLAC, WAV, MP3, M4A/AAC, OGG/Opus, AIFF, WavPack and TTA.
+- **Queue and Up Next** — playing an album, folder or search result fills the queue. Open it
+  to see what is coming, jump ahead, or shuffle the whole library.
+- **Full-screen Now Playing** — large artwork, an Up Next panel, keyboard and media-key
+  controls, and Windows media integration.
+- **Search and sort instantly** — filter by song, artist, album or quality, then sort by
+  title, album, quality or length.
+- **A library per folder** — each folder you add gets its own sidebar entry; rescan or remove
+  it without ever touching the files.
+- **Made for your phone too** — responsive YouTube Music-style layout; LAN mode serves the
+  same library to phones and other PCs on your Wi-Fi.
+- **No accounts, no cloud** — a plain local server, no login, no telemetry, and no internet
+  needed to play your files.
+
+---
+
 ## Project home and updates
 
 The newest version of this app — interface (UI), fixes and new features — is always
 published on GitHub:
 
-> https://github.com/hackermanz32/Manz-Music-app.git
-
+> **https://github.com/hackermanz32/Manz-Music-app.git**
+> _(replace this line with your own repository link)_
 
 Whenever I change something on this PC, I test it here first and then push it, so the GitHub
 copy is always the latest version:
@@ -139,17 +165,7 @@ starts with an empty library.
 
 ---
 
-## Features
-
-- Local playback of FLAC, WAV, MP3, M4A/AAC, OGG/Opus, AIFF, WavPack and TTA.
-- Range-based seeking, queue, shuffle, volume, media keys and a full-screen Now Playing view.
-- Search and sorting by title, album, quality and duration.
-- Lossless / hi-res / lossy quality badges, embedded cover art thumbnails.
-- Sidebar libraries per folder, drag-free folder management and rescans.
-- Apple Music song/album/playlist link parsing with a background download queue.
-- Responsive YouTube Music-style layout for phone and desktop browsers.
-
-### About downloads
+## About downloads
 
 The downloader resolves Apple Music page metadata, then fetches matching audio with
 `yt-dlp`, converts/tags it with the bundled FFmpeg, and embeds the Apple artwork. It is
